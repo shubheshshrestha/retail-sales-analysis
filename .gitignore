@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Sensitive configuration
+.env
+
+# Local source and processed data
+data/raw/*
+data/processed/*
+
+# Keep placeholder files if added
+!data/raw/.gitkeep
+!data/processed/.gitkeep
